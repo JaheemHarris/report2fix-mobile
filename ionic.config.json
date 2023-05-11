@@ -1,0 +1,7 @@
+{
+  "name": "report2fix",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
