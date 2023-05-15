@@ -1,0 +1,35 @@
+.home-header{
+    display: flex;
+    flex-direction: column;
+    height: 18%;
+    background-color: #09A8EC;
+}
+
+.home-header .header-title{
+    padding-left: 8%;
+    height: 50%;
+}
+
+.home-header .header-title h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.home-header .header-menu{
+    background-color: #4ebded;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-header .header-menu .header-menu-button{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+

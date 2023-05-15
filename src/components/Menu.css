@@ -1,0 +1,60 @@
+ion-modal#logout-modal {
+    --width: fit-content;
+    --min-width: 70%;
+    --height: fit-content;
+    --min-height: 20vh;
+    --border-radius: 6px;
+    --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-modal#logout-modal #ion-react-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout-question{
+    width: 95%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.cancel-logout{
+    background-color: grey;
+    font-weight: bold;
+    color: white;
+}
+
+.confirm-logout{
+    background-color: #09A8EC;
+    font-weight: bold;
+    color: white;
+}
+
+.logout-buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logout-buttons a{
+    display: flex;
+    width: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.logout-title{
+    color: #09A8EC;
+    font-size: 1.2em;
+    font-weight: 900;
+}

@@ -1,0 +1,143 @@
+body{
+    background-color: #FFFFFF;
+}
+
+input{
+    background-color: #FFFFFF;
+    border-width: 0.5px;
+    border-color: rgb(148, 148, 148);
+    color: #000000;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+
+.head .title{
+    margin-top: 13px;
+    color: #128DD2;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.blue-button{
+    background-color: #09A8EC;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 100px;
+    height: 31px;
+    border-radius: 6px;
+}
+
+.head .blue-button{
+    margin-top: 13px;
+}
+
+.body{
+    margin-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.body .body-head, .body .body-form, .body .body-foot{
+    width: 100%;
+}
+
+.body .body-title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.body .body-form{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.body .body-form .body-form-input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    width: 100%;
+    font-size: 12px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.body .body-form .body-form-input-checkbox{
+    display: flex;
+    margin-bottom: 3%;
+    width: 100%;
+    font-size: 12px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.body .body-form .body-form-input-group .input-label{
+    width: 60%;
+    padding-bottom: 5px;
+}
+
+.body .body-form .body-form-input-group .input-field{
+    height: 40px;
+    width: 60%;
+}
+
+.body .body-form .blue-button{
+    margin-top: 4%;
+}
+
+.body .body-foot{
+    margin-top: 6%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.body .body-foot .body-foot-link{
+    color: #128DD2;
+    text-decoration: underline;
+}
+
+.body .body-form .multi-form-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.body .body-form .multi-form-input .multi-input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    width: 45%;
+}
+
+.body .body-form .multi-form-input .multi-input-group .input-label{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.body .body-form .multi-form-input .multi-input-group .input-field{
+    font-size: 12px;
+    height: 40px;
+}
+
+.body .body-error{
+    background-color: rgba(255, 0, 0, 0.6);
+    color: #FFFFFF;
+    width: 60%;
+    padding: 10px;
+    font-size: 12px;
+}
