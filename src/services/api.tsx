@@ -1,8 +1,10 @@
 import axios from 'axios';
 import { verifyToken } from './jwtService';
 
+const baseUrl = 'http://192.168.88.206:9005/api/v1';
+
 const api = axios.create({
-    baseURL: 'http://192.168.88.206:9005/api/v1'
+    baseURL: baseUrl
 });
 
 // Add a request interceptor to add the Authorization header to each request

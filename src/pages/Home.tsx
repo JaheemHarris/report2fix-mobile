@@ -52,21 +52,33 @@ const Home : React.FC = () => {
   }
 
   const getReportTypes = () => {
-    api.get("/typesignalements")
-    .then((response) => {
-      setTypes(response.data);
-    }).catch((error) => {
-      console.log(error);
-    });
+    const typesList = localStorage.getItem('reportTypes');
+    if(!typesList){
+      api.get("/typesignalements")
+      .then((response) => {
+        setTypes(response.data);
+        localStorage.setItem('reportTypes', JSON.stringify(response.data));
+      }).catch((error) => {
+        console.log(error);
+      });
+    }else{
+      setTypes(JSON.parse(typesList));
+    }
   }
 
   const getRegions  = () => {
-    api.get("/regions")
-    .then((response) => {
-      setRegions(response.data);
-    }).catch((error) => {
-      console.log(error);
-    });
+    const regionsList = localStorage.getItem('regions');
+    if(!regionsList){
+      api.get("/regions")
+      .then((response) => {
+        setRegions(response.data);
+        localStorage.setItem('regions', JSON.stringify(response.data));
+      }).catch((error) => {
+        console.log(error);
+      });
+    }else{
+      setRegions(JSON.parse(regionsList));
+    }
   }
 
   useEffect(() => {

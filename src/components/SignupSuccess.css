@@ -1,0 +1,35 @@
+.signup-success{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.signup-success h4{
+    font-size: 1rem;
+}
+
+.report2fix-success{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #09A8EC;
+}
+
+.signup-success .login-btn{
+    width: 26%;
+    height: 6%;
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    background-color: #128DD2;
+    border-radius: 5%;
+}
+
+.signup-success .success-icon{
+    width: 30%;
+    height: 30%;
+}

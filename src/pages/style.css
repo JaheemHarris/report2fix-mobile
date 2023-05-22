@@ -131,7 +131,19 @@ input{
 
 .body .body-form .multi-form-input .multi-input-group .input-field{
     font-size: 12px;
-    height: 40px;
+    height: 30px;
+}
+
+.input-pwd{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.body .body-form .multi-form-input .multi-input-group .input-errors{
+    font-size: 9px;
+    color: #C73E1D;
 }
 
 .body .body-error{
@@ -140,4 +152,14 @@ input{
     width: 60%;
     padding: 10px;
     font-size: 12px;
+}
+
+.eye-icon{
+    cursor: pointer;
+}
+
+.signup-error {
+    text-align: center;
+    font-size: 0.7rem;
+    color: #C73E1D;
 }
