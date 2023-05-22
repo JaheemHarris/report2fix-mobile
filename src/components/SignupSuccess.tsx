@@ -15,7 +15,7 @@ const SignupSucess:React.FC = () => {
         <div className="signup-success">
             <IonIcon className="success-icon" icon={checkmarkDoneCircleOutline} color="success" size="large"></IonIcon>
             <h4>Votre compte <span className="report2fix-success">Report2Fix</span> a été créé!</h4>
-            <button type="button" className="login-btn" onClick={goToLogin} >Login</button>
+            <button type="button" className="login-btn" onClick={goToLogin} >Se connecter</button>
         </div>
     );
 }

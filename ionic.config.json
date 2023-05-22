@@ -3,5 +3,23 @@
   "integrations": {
     "capacitor": {}
   },
-  "type": "react"
+  "type": "react",
+  "projects": {
+    "app": {
+      "name": "app",
+      "type": "react",
+      "root": "src",
+      "babel": {
+        "plugins": []
+      },
+      "environment": {
+        "production": {
+          "API_URL": "http://192.168.88.206:9005/api/v1"
+        },
+        "development": {
+          "API_URL": "http://192.168.88.206:9005/api/v1"
+        }
+      }
+    }
+  }
 }

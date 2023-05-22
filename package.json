@@ -70,7 +70,8 @@
     "iOS >=14"
   ],
   "devDependencies": {
-    "@capacitor/cli": "5.0.3"
+    "@capacitor/cli": "5.0.3",
+    "dotenv": "^16.0.3"
   },
   "description": "An Ionic project"
 }

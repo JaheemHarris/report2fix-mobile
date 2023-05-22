@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { verifyToken } from './jwtService';
 
-const baseUrl = 'http://192.168.88.206:9005/api/v1';
+const baseUrl = process.env.REACT_APP_API_URL;
 
 const api = axios.create({
     baseURL: baseUrl

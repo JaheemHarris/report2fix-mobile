@@ -8,7 +8,7 @@ import { eyeOffOutline, eyeOutline } from 'ionicons/icons';
 import { useForm } from 'react-hook-form';
 
 const Signup: React.FC = () => {
-    const baseUrl = 'http://192.168.88.206:9005/api/v1';
+    const baseUrl = process.env.REACT_APP_API_URL;
     const { register, handleSubmit, getValues, formState: { errors, isValid }, watch}= useForm();
 
     const [succeed, setSucceed] = useState(false);

@@ -18,6 +18,7 @@
 .DS_Store
 .env.local
 .env.development.local
+.env
 .env.test.local
 .env.production.local
 /.vscode/*
@@ -30,3 +31,6 @@ yarn-error.log*
 
 # Optional eslint cache
 .eslintcache
+
+
+# Environment Variavle
